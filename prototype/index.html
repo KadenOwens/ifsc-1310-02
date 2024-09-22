@@ -27,9 +27,9 @@
 
         <header class="primary">
             <!--The header tag shows that this information goes at the top of the page. The primary class would be used for CSS in cases where you have multiple headers.-->
-            <h1>Spartan Cabinets</h1>
+            <h1 id = "top">Spartan Cabinets</h1>
             <figure>
-                <img src="img/spartan_logo.jpg" alt="Spartan Cabinets Logo">
+                <img src="assets/img/spartan_logo.jpg" alt="Spartan Cabinets Logo">
             </figure>
             <!--The h1 tag is used to show that this is the highest level of content on the page, the title.-->
         </header>
@@ -49,7 +49,7 @@
 
             <ul>
                 <!--Is used to create a list of unordered items-->
-                <li>Custom Cabinets for New Constructions</li>
+                <li>Custom Cabinets for New Construction</li>
                 <li>Kitchen and Bath Remodels</li>
                 <li>Full Home Remodels</li>
                 <li>Turn-Key Homes</li>
@@ -86,6 +86,9 @@
 
             <h3>A Note from the Owner</h3>
 
+            <blockquote>
+                
+            </blockquote>
 
             <h2>Our Products</h2>
 
@@ -203,6 +206,22 @@
 
         </section>
 
+        <nav class = "primary">
+            <!--Creates a section for links to navigate to various places-->
+            <ul>
+                <li><a href="../index.html" title="Link to Home Page">Home Page</a></li>
+                <!--a creates an anchor, while the href shows what website should have the anchor, and the title describes where the link will take you for screen reading purposes.-->
+                <li><a href="https://www.facebook.com/spartancabinets/about_details" title = "Link to about section on Spartan facebook page">About Spartan</a></li>
+                <li><a href="https://www.facebook.com/spartancabinets/" title = "Link to Spartan's facebook feed" target="_blank">Spartan Facebook</a></li>
+                <!--The target determines where to open the webpage. In this case it is in a new tab.-->
+                <li><a href="mailto:kowens@ualr.edu" title = "Link to send me an email">Send an Inquiry</a></li>
+            </ul>
+        </nav>
+
+        <footer class="primary">
+            <!--Creates a section at the bottom of the web page.-->
+            <h6>&copy;Kaden Owens, 2024 | <a href="mailto:kowens@ualr.edu">Contact Me</a> | <a href="#top">Back to Top</a></h6>
+        </footer>
 
     </main>
 
