@@ -1,0 +1,22 @@
+/* CSS Demo Stylesheet */
+
+/* Box Sizing */
+
+html {
+    box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit
+}
+
+/* Global Styles */
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+header.primary{
+    background:lightblue;
+}
