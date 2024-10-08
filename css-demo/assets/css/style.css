@@ -1,6 +1,6 @@
 /* CSS Demo Stylesheet */
 
-/* Box Sizing */
+/* --- Box Sizing --- */
 
 html {
     box-sizing:border-box;
@@ -11,7 +11,23 @@ html {
     box-sizing:inherit
 }
 
-/* Global Styles */
+/* --- Responsive Images --- */
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* --- Utility Classes --- */
+
+.container{
+    width:80vw;
+    max-width:960px;
+    margin: 40px auto;
+}
+
+/* --- Global Styles --- */
 
 body {
     font-family: "Manrope", sans-serif;
@@ -51,8 +67,6 @@ header.primary h2{
     margin:0;
 }
 
-nav.primary {}
-
 nav.primary ul{
     padding:10px 0 0 0;
     display:flex;
@@ -76,4 +90,51 @@ nav.primary ul li a{
 
 nav.primary ul li a:hover{
     background-color: rgba(0, 0, 0, .5); 
+}
+
+#intro{
+    line-height:1.4
+}
+
+#intro h2 {
+    color: #EB6400;
+    border-bottom: 2.5px dotted #EBA800;
+}
+
+#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:2rem;
+}
+
+#content article.post{
+    box-shadow: 0 4px 8px rgba(0,0,0,.25);
+    padding:10px;
+    border-radius:4px;
+    font-size:.8rem;
+}
+
+time.post-date, figcaption{
+    text-transform:uppercase;
+    color:#EB6400;
+}
+
+#content article.post figure{
+    margin:0;
+}
+
+/* --- Media Queries --- */
+
+@media screen and (max-width:900px){
+    nav.primary ul {
+        flex-direction:column;
+        gap:30px;
+        max-width: 250px;
+        margin:10px auto;
+    }
+
+    nav.primary ul li a{
+        display:block;
+    }
 }
