@@ -25,6 +25,30 @@ img{
     margin: 40px auto;
 }
 
+.img-right{
+    float:right;
+    margin:10px 0 10px 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+  .img-center {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
 /* --- Global Styles --- */
 
 body {
@@ -66,6 +90,11 @@ header.primary h2{
     margin:0;
 }
 
+nav.primary {
+    max-width: 960px;
+    margin: auto;
+  }
+
 nav.primary ul{
     padding:10px 0 0 0;
     display:flex;
@@ -97,7 +126,7 @@ nav.primary ul li a:hover{
 
 #intro h2 {
     color: #EB6400;
-    border-bottom: 2.5px dotted #EBA800;
+    border-bottom: 2px dashed #EBA800;
 }
 
 #content{
@@ -105,9 +134,7 @@ nav.primary ul li a:hover{
     flex-direction:row;
     justify-content:space-around;
     gap:2rem;
-    border-top: 2.5px dotted #EBA800;
     padding:2.6rem 0;
-    border-bottom: 2.5px dotted #EBA800;
 }
 
 #content article.post{
@@ -133,6 +160,58 @@ time.post-date, figcaption{
 #content article.post figure{
     margin:0;
 }
+
+#practice h2{
+    color: #EB6400;
+    border-bottom: 2px dashed #EBA800;
+}
+
+#practice a {
+    color: #3b638b;
+    transition: 0.4s;
+  }
+  
+  #practice a:hover {
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  #practice h3 {
+    border-left: 7.5px solid #3b638b;
+    padding: 3.5px 10px;
+  }
+  
+  table {
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  caption {
+    font-weight: bold;
+    margin: 10px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  tr:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  th {
+    background-color: #172635;
+    color: #ffffff;
+    padding: 7.5px;
+  }
+  td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+  }
+  
+  td:nth-child(n + 2) {
+    text-align: right;
+  }
 
 aside[role="complementary"]{
     background-color:#EBA800;
