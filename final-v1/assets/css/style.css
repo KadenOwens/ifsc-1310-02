@@ -2,7 +2,7 @@
 
 body {
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 25%, rgba(6,24,77,1) 50%, rgba(9,51,122,1) 75%, rgba(39,111,170,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 40%, rgba(6,24,77,1) 70%, rgba(9,51,122,1) 90%, rgba(33,93,142,1) 100%);
     color:aliceblue;
 
     font-family: "Manrope", sans-serif;
@@ -17,14 +17,14 @@ img{
 }
 
 img.sidebar_left{
-    max-width:33%;
+    max-width:50%;
     float:left;
     margin:20px;
     border-radius:20px;
 }
 
 img.sidebar_right{
-    max-width:33%;
+    max-width:50%;
     float:right;
     margin:20px;
     border-radius:20px;
@@ -33,7 +33,7 @@ img.sidebar_right{
 /* --- Header --- */
 
 header{
-   height:100vh;
+   height:70vh;
 }
 
 header h1{
@@ -103,3 +103,96 @@ footer a{
 footer a:hover{
     text-decoration:underline;
 }
+
+/* ----- Homepage ----- */
+
+#content h2{
+    font-size:2rem;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+#content h3{
+    font-size:1.1rem;
+    text-transform:uppercase;
+}
+
+#content p{
+    font-size:1rem;
+}
+
+/* --- Content --- */
+
+#overview{
+    height:70vh;
+}
+
+#overview h2{
+    font-size:2.5rem;
+    text-align:center;
+}
+
+#overview p{
+   font-size:1rem;
+   padding:20px;
+}
+
+#configurations h2{
+    font-size:2.5rem;
+    text-align:center;
+}
+
+#configurations h3 {
+    font-size:1.3rem;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#configurations img{
+    max-height:35vh;
+}
+
+#configurations dl dt{
+    font-size:1.2rem;
+}
+
+#configurations dl dd{
+    font-size:.8rem;
+    padding-bottom:10px;
+}
+
+#crew{
+    height:35vh;
+    padding-bottom:5vh;
+}
+
+#crew dl{
+    text-align:left;
+}
+
+#cargo{
+    height:35vh;
+    padding-bottom:5vh;
+}
+
+#cargo dl{
+    text-align:right;
+}
+
+#lab{
+    height:35vh;
+    padding-bottom:5vh;
+}
+
+#lab dl{
+    text-align:left;
+}
+
+#lab img{
+    width:40%;
+}
+
+/* --- Media Queries --- */
+
+/*Need to add media queries eventually*/
