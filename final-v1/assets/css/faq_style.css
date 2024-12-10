@@ -2,7 +2,7 @@
 
 body {
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 25%, rgba(6,24,77,1) 50%, rgba(9,51,122,1) 75%, rgba(39,111,170,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 40%, rgba(6,24,77,1) 60%, rgba(9,51,122,1) 90%, rgba(39,111,170,1) 100%);
     color:aliceblue;
 
     font-family: "Manrope", sans-serif;
