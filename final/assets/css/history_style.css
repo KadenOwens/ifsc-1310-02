@@ -1,0 +1,147 @@
+/* ----- Global CSS ----- */
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 60%, rgba(6,24,77,1) 80%, rgba(9,51,122,1) 95%, rgba(33,93,142,1) 100%);
+    color:aliceblue;
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* --- Responsive Images --- */
+
+img{
+    max-width:100%;
+}
+
+img.sidebar_left{
+    max-width:50%;
+    float:left;
+    margin:20px;
+    border-radius:20px;
+}
+
+img.sidebar_right{
+    max-width:50%;
+    float:right;
+    margin:20px;
+    border-radius:20px;
+}
+
+/* --- Header --- */
+
+header{
+   height:70vh;
+}
+
+header h1{
+    font-size:7rem;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+header h3{
+    font-size:1.1rem;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:0;
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:20px;
+}
+
+#header-top img{
+    max-width:200px;
+    padding-left:100px;
+}
+
+#header-top nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#header-top  nav ul li {
+    margin-left:100px;
+}
+
+#header-top nav ul li :last-child{
+    margin-right:100px;
+}
+
+#header-top nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#header-top  nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* --- Footer --- */
+
+footer ul{
+    list-style-type:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+footer ul li{
+    padding-bottom:10px;
+}
+
+footer a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+/* ----- History ----- */
+
+#content h2{
+    font-size:2.5rem;
+    text-align:center;
+}
+
+#content img{
+    max-height:35vh;
+}
+
+#content p{
+    padding:20px;
+}
+
+#development{
+    height:35vh;
+    padding-bottom:5vh;
+}
+
+#early_missions{
+    height:35vh;
+    padding-bottom:15vh;
+}
+
+#recent_missions table{
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:5vh;
+}
+
+#recent_missions table tr {
+    border-bottom: 2px solid #FFF;
+}
+
+#recent_missions table th, td{
+    padding:8px;
+    border-bottom: 2px solid #FFF;
+}
