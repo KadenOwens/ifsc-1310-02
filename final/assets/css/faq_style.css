@@ -2,7 +2,7 @@
 
 body {
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 40%, rgba(6,24,77,1) 60%, rgba(9,51,122,1) 90%, rgba(39,111,170,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 40%, rgba(6,24,77,1) 70%, rgba(9,51,122,1) 90%, rgba(33,93,142,1) 100%);
     color:aliceblue;
 
     font-family: "Manrope", sans-serif;
@@ -125,4 +125,8 @@ details p{
     font-size:.9rem;
     padding-left:20px;
     padding-right:20px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
 }
