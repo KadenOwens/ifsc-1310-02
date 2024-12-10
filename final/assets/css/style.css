@@ -18,14 +18,14 @@ img{
 
 img.sidebar_left{
     max-width:50%;
-    float:left;
+    order:0;
     margin:20px;
     border-radius:20px;
 }
 
 img.sidebar_right{
     max-width:50%;
-    float:right;
+    order:1;
     margin:20px;
     border-radius:20px;
 }
@@ -127,25 +127,31 @@ footer a:hover{
 
 #overview{
     height:70vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 #overview h2{
     font-size:2.5rem;
     text-align:center;
+    margin-bottom:0px;
 }
 
 #overview p{
    font-size:1rem;
    padding:20px;
+   padding-top:10px;
 }
 
 #configurations h2{
     font-size:2.5rem;
     text-align:center;
+    padding-bottom:10vh;
 }
 
 #configurations h3 {
-    font-size:1.3rem;
+    font-size:1.5rem;
     text-align:center;
     padding-top:20px;
     padding-bottom:20px;
@@ -156,17 +162,22 @@ footer a:hover{
 }
 
 #configurations dl dt{
-    font-size:1.2rem;
+    font-size:1rem;
+    padding-bottom:2px;
 }
 
 #configurations dl dd{
     font-size:.8rem;
     padding-bottom:10px;
+    margin:0px;
 }
 
 #crew{
     height:35vh;
-    padding-bottom:5vh;
+    padding-bottom:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 #crew dl{
@@ -175,16 +186,23 @@ footer a:hover{
 
 #cargo{
     height:35vh;
-    padding-bottom:5vh;
+    padding-bottom:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 #cargo dl{
-    text-align:right;
+    text-align:left;
+    padding-left:10px;
 }
 
 #lab{
     height:35vh;
-    padding-bottom:5vh;
+    padding-bottom:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
 #lab dl{
