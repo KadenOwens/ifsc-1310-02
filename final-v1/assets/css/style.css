@@ -1,9 +1,54 @@
+/* ----- Global CSS ----- */
+
 body {
-    background-color:black;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,14,41,1) 25%, rgba(6,24,77,1) 50%, rgba(9,51,122,1) 75%, rgba(39,111,170,1) 100%);
     color:aliceblue;
 
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+/* --- Responsive Images --- */
+
+img{
+    max-width:100%;
+}
+
+/* --- Header --- */
+
+#header-top {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+#header-top img{
+    max-width:300px;
+    max-height:auto;
+}
+
+#header-top nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#header-top  nav ul li {
+    margin-top:50px;
+    margin-left:75px;
+}
+
+#header-top nav ul li :last-child{
+    margin-right:130px;
+}
+
+#header-top nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#header-top  nav ul li a:hover {
+    text-decoration: underline;
 }
