@@ -4,10 +4,10 @@ $(document).ready(function() {
         var viewportHeight = $(window).height();
 
         if ($(this).scrollTop() > viewportHeight/3) {
-            $('h1,h3').fadeOut(1000);
+            $('header h1,header h3').fadeOut(1000);
         } 
         else {
-            $('h1,h3').fadeIn(1000);
+            $('header h1,header h3').fadeIn(1000);
         }
     });
 });

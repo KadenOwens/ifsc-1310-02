@@ -100,3 +100,49 @@ footer a{
 footer a:hover{
     text-decoration:underline;
 }
+
+/* --- Media Queries --- */
+
+@media (max-width:1200px){
+    #header-top nav ul li{
+        margin-left:50px;
+    }
+}
+
+@media (max-width:1000px){
+    #header-top nav ul li{
+        margin-left:25px;
+    }
+}
+
+@media (max-width:900px){
+    header {
+        height: auto;
+        padding-top: 10vh;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        padding-top: 20px;
+    }
+
+    header h3 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    #header-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-top img {
+        max-width: 150px;
+        margin-right:100px;
+    }
+
+    #header-top nav ul {
+        flex-direction: column;
+    }
+}
