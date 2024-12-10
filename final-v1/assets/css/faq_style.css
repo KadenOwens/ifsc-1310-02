@@ -33,7 +33,7 @@ img.sidebar_right{
 /* --- Header --- */
 
 header{
-   height:100vh;
+   height:50vh;
 }
 
 header h1{
@@ -102,4 +102,24 @@ footer a{
 
 footer a:hover{
     text-decoration:underline;
+}
+
+/* ----- FAQ ----- */
+
+details summary{
+    color:#FFF;
+    list-style:none;
+    font-size:1.2rem;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+details summary:hover{
+    cursor:pointer;
+}
+
+details p{
+    font-size:.9rem;
+    padding-left:20px;
+    padding-right:20px;
 }
