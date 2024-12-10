@@ -1,4 +1,32 @@
 body{
-    background-color:slategray;
+    background-color:#BBB;
+    font-family: "Manrope", sans-serif;
 }
 
+body h1{
+    text-align:center;
+    border-bottom:#000 1px solid;
+}
+
+body nav ul{
+    list-style:square;
+}
+
+body nav ul li{
+    color:#000;
+}
+
+body nav ul li a{
+    color:#555;
+    text-decoration:none;
+}
+
+body nav ul li a:hover{
+    text-decoration:underline;
+    transition:.4s;
+}
+
+body h2{
+    border-bottom:#000 1px solid;
+    padding-top:10px;
+}
