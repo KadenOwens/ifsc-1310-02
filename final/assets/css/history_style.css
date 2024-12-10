@@ -33,22 +33,23 @@ img.sidebar_right{
 /* --- Header --- */
 
 header{
-   height:70vh;
-}
-
-header h1{
-    font-size:7rem;
-    text-transform:uppercase;
-    text-align:center;
-    margin-bottom:10px;
-}
-
-header h3{
-    font-size:1.1rem;
-    text-transform:uppercase;
-    text-align:center;
-    margin-top:0;
-}
+    height:100vh;
+ }
+ 
+ header h1{
+     font-size:7rem;
+     text-transform:uppercase;
+     text-align:center;
+     margin-bottom:10px;
+     padding-top:15vh;
+ }
+ 
+ header h3{
+     font-size:1.1rem;
+     text-transform:uppercase;
+     text-align:center;
+     margin-top:0;
+ }
 
 #header-top {
     display: flex;
@@ -122,25 +123,26 @@ footer a:hover{
 }
 
 #development{
-    height:35vh;
-    padding-bottom:10vh;
+    height:100vh;
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 
 #early_missions{
-    height:35vh;
-    padding-bottom:15vh;
+    height:100vh;
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 
+#recent_missions {
+    height:75vh;
+}
+
 #recent_missions table{
     margin-left:auto;
     margin-right:auto;
-    padding-bottom:5vh;
 }
 
 #recent_missions table tr {
